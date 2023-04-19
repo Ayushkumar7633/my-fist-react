@@ -1,0 +1,41 @@
+div{
+    border: 2px double black;
+    width: 370px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctlnBAVYdLOO9iOqIcwux_vRrRuOMAcXW8YvTM-Ol&s);
+    background-size: contain;
+    color: #500c0c;
+    padding-right: 10px;
+}
+p{
+    text-align: right;
+    margin: 4px;
+}
+
+#company{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+
+#name{
+    font-size: 25px;
+
+}
+#mobile{
+    margin-top: 15px;
+    color: rgb(0, 255, 221);
+}
+.address{
+    font-size: 14px;
+}
+#company2{
+    color: blue;
+}
+#companyH{
+    color:rgb(8, 250, 177);
+}
+#name:hover{
+    color: rgb(205, 212, 211);
+}
