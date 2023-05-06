@@ -1,0 +1,50 @@
+.black {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+.ayush p {
+  margin-top: 65px;
+  font-size: 10px;
+  margin-left: -98px;
+  color: rgb(0 0 0 / 72%);
+}
+.ayush h6 {
+  margin-top: 100px;
+  font-size: 10px;
+  margin-left: -117px;
+  color: rgb(36 36 36 / 72%);
+}
+.ayusha img {
+  width: 100%;
+  height: 100%;
+}
+.ayusha {
+  height: 135px;
+  width: 125px;
+}
+.ayush1 {
+  margin-top: -59px;
+  margin-left: 11px;
+}
+.ayush1 p {
+  margin-top: 13px;
+  font-size: 11px;
+  margin-left: 16px;
+  color: rgb(0 0 0 / 72%);
+}
+.ayush1 h1 {
+  margin-top: -11px;
+  font-size: 14px;
+  margin-left: 11px;
+  color: rgb(0 0 0 / 58%);
+}
+.ayush1 img {
+  height: 27px;
+  width: 109px;
+  margin-top: 44px;
+  border-radius: 4px;
+}
+.ayush1 sup {
+  font-size: 10px;
+}

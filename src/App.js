@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Ayush from "./Ayush";
-import Looking_image from "./Looking_image";
+import Philips from "./ayush/Philips";
+import Different from "./different";
 function App() {
   return (
     <div>
-      <Looking_image></Looking_image>
+      <Different></Different>
     </div>
   );
 }

@@ -1,8 +1,86 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./looking.css";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 function Looking_image() {
   return (
-    <div>
-      <img src="https://wallpaperaccess.com/full/3523317.jpg"></img>;
-      <img src="data:image/jpeg;base64,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"></img>
+    <div className="ayush">
+      <div className="card">
+        <h1 className="ak">03</h1>
+        <div className="last">
+          <h1 className="kumar">Review</h1>
+          <div className="border"></div>
+        </div>
+      </div>
+      <div className="ayush1">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-RXWYvZ16B8MoUeoWo1JF-rs6cZDZajOeTEBSt28VeePuasJLnQ8pfPy6IvUZ-Qnvzs&usqp=CAU"
+          alt="a"
+        />
+        <div className="black">
+          <div className="akkumar">
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+          </div>
+          <div className="store">
+            <h1>80%</h1>
+          </div>
+        </div>
+      </div>
+      <div className="ayush2">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAD1_1vt5RmCnArxYx-wwynH_Tzu9qlS9yI_3FjFuPWzn-VTAQzdm08Zg0vI5gmLUlrNw&usqp=CAU"
+          alt="b"
+        />
+        <div className="shop">
+          <div className="key">
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+          </div>
+          <div className="yellow">
+            <h1>95%</h1>
+          </div>
+        </div>
+      </div>
+      <div className="ayush3">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqvPjeq1rAu2wjEINj-w_TfGNEOzFPr2fvNFxfxOOCBflO-v0F9D2A1xJi4KmDqq3V3ZI&usqp=CAU"
+          alt="c"
+        />
+        <div className="grapes">
+          <div className="guava">
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+          </div>
+          <div className="white">
+            <h1>90%</h1>
+          </div>
+        </div>
+      </div>
+      <div className="ayush4">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qb5YUOnjOw0x3MJBJt0sY6LqHAs62EKtAzlP0eAlu453eP-i83BgmwVittlkFxt46v0&usqp=CAU"
+          alt="e"
+        />
+        <div className="red">
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+        </div>
+        <div className="blue">
+          <h1>95%</h1>
+        </div>
+      </div>
     </div>
   );
 }

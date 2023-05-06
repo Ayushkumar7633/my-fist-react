@@ -1,0 +1,32 @@
+.dots .dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 50%;
+  margin: 7px;
+  cursor: pointer;
+}
+.dots .dot:hover {
+  background-color: #c50000;
+}
+.dots {
+  display: flex;
+  background-color: rgb(252, 252, 252);
+  margin-left: 20px;
+  margin-top: -196px;
+  justify-content: center;
+}
+.ayush {
+  display: flex;
+}
+.black {
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 263px;
+  transition: 2s;
+}
+.slide {
+  transition: 2s;
+}

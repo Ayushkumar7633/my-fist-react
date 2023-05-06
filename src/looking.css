@@ -1,0 +1,78 @@
+.ayush {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 16px;
+}
+.container {
+  margin-top: 140px;
+  font-size: 26px;
+}
+.card {
+  padding-right: 40px;
+  padding-top: 52px;
+}
+.kumar {
+  margin: 0;
+  border-top: 44px;
+}
+.ak {
+  color: #efefef9e;
+  margin: 0;
+  font-size: 100px;
+}
+.store {
+  font-size: 10px;
+  margin-top: -32px;
+  margin-left: 108px;
+}
+.black {
+  margin-top: 16px;
+}
+.akkumar {
+  margin-left: 12px;
+  color: goldenrod;
+}
+.shop {
+  margin-top: 16px;
+}
+.yellow {
+  font-size: 10px;
+  margin-top: -32px;
+  margin-left: 108px;
+}
+.key {
+  margin-left: 12px;
+  color: goldenrod;
+}
+.grapes {
+  margin-top: 16px;
+}
+.guava {
+  margin-left: 12px;
+  color: goldenrod;
+}
+.white {
+  font-size: 10px;
+  margin-top: -32px;
+  margin-left: 108px;
+}
+.red {
+  margin-left: 12px;
+  color: goldenrod;
+  margin-top: 16px;
+}
+.blue {
+  font-size: 10px;
+  margin-top: -32px;
+  margin-left: 108px;
+}
+.last {
+  display: flex;
+}
+.border {
+  width: 50px;
+  border-top: 1px solid;
+  margin-top: 21px;
+  margin-left: 29px;
+}

@@ -1,0 +1,8 @@
+.ayush img {
+  width: 800px;
+  border: 5px solid;
+}
+.ayush img:hover {
+  transition: 2s;
+  border: 20px solid;
+}

@@ -1,4 +1,8 @@
 function Ayush() {
-  return <h1>Ayush</h1>;
+  return (
+    <div>
+      <i className="fa-solid fa-star" style="color: #ffd500;"></i>
+    </div>
+  );
 }
 export default Ayush;
