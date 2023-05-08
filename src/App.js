@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Ak from "./ak";
 import Philips from "./ayush/Philips";
-import Different from "./different";
 function App() {
   return (
     <div>
-      <Different></Different>
+      <Ak></Ak>
     </div>
   );
 }

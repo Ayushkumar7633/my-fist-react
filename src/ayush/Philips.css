@@ -1,23 +1,32 @@
 .black img {
-  height: 199px;
-  width: 106px;
+  width: 100%;
 }
-.kumar {
-  margin: 115px;
-  margin-top: -202px;
+.top h2 {
+  color: #4a4a4acf;
 }
-.kumar img {
-  height: 76px;
+.shop {
+  background-color: rgb(169 220 225);
+  border-radius: 8px;
+  padding: 3px;
 }
-.top h {
-  margin-left: 20px;
-  color: #4a4a4a;
+.shop p {
+  font-size: 14px;
 }
-.kumar p {
-  margin: 126px;
-  margin-top: -134px;
+.ayush {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.kumar p {
-  margin: 126px;
-  margin-top: -134px;
+.box {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  background-image: url(https://www.adobe.com/express/create/background/media_1158a87c8706310ece4c5be54bd7168490bb01b2c.jpeg?width=400&format=jpeg&optimize=medium);
+}
+.and {
+  padding-left: 10px;
+  flex: 1;
+}
+.black {
+  display: flex;
 }

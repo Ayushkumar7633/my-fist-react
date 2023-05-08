@@ -1,11 +1,18 @@
-import React from "react";
-import "./different.css";
-function Different({ thelaSrc }) {
+import React, { memo } from "react";
+import Layout from "./Layout";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+function Different() {
   return (
-    <div className="ayush">
-      <img src={"https://i.ytimg.com/vi/dktoLx6wdwo/mqdefault.jpg"}></img>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<p>Ayush</p>} />
+          <Route path="blogs" element={<p>Kumar</p>} />
+          <Route path="contact" element={<p>Mandal</p>} />
+          <Route path="*" element={<p>AK</p>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default Different;
