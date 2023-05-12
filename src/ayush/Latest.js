@@ -1,18 +1,24 @@
 import React from "react";
-function Latest({ thelaSrc, thereSrc, title, price, mrp }) {
+import styles from "./Philips.module.css";
+function Latest({ thelaSrc, thereSrc, title, price, mrp, kumar, blue }) {
   console.log(title);
-
   return (
-    <div className="box">
+    <div className={styles["box"]}>
       <div
-        className="ayush"
+        className={styles["ayush"]}
         style={{ backgroundImage: "url(" + thereSrc + ")" }}
       ></div>
-      <div className="and">
+      <div className={styles["and"]}>
         <img src={thelaSrc} />
-        <p className="keep">{price}</p>
-        <div className="shop">
+        <p className={styles.keep}>{price}</p>
+        <div className={styles["larg"]}>
+          <p>{blue}</p>
+        </div>
+        <div className={styles["shop"]}>
           <p>{mrp}</p>
+        </div>
+        <div className={styles["man"]}>
+          <p>{kumar}</p>
         </div>
       </div>
     </div>
