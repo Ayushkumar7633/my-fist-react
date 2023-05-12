@@ -1,5 +1,5 @@
 .black img {
-  width: 100%;
+  width: 80%;
 }
 .top h2 {
   color: #4a4a4acf;
@@ -8,9 +8,10 @@
   background-color: rgb(169 220 225);
   border-radius: 8px;
   padding: 3px;
+  margin-top: 10px;
 }
 .shop p {
-  font-size: 14px;
+  font-size: 10px;
 }
 .ayush {
   flex: 1;
@@ -18,9 +19,10 @@
   background-repeat: no-repeat;
 }
 .box {
-  width: 300px;
-  padding: 10px;
+  width: 232px;
+  padding: 5px;
   display: flex;
+  background-size: cover;
   background-image: url(https://www.adobe.com/express/create/background/media_1158a87c8706310ece4c5be54bd7168490bb01b2c.jpeg?width=400&format=jpeg&optimize=medium);
 }
 .and {
@@ -29,4 +31,19 @@
 }
 .black {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.man {
+  font-size: 11px;
+  padding: 10px;
+}
+.keep {
+  font-size: 12px;
+  font-weight: 600;
+  color: #32343d;
+}
+.larg p {
+  margin-top: 4px;
+  font-size: 11px;
 }
