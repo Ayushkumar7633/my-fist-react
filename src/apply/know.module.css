@@ -1,0 +1,182 @@
+.body {
+  border-style: solid;
+  height: 549px;
+  width: 345px;
+  margin-left: 306px;
+  padding: 25px;
+}
+.container {
+  border-top: 1px solid #ccc;
+  margin-top: 12px;
+}
+.box {
+  font-size: 23px;
+  display: flex;
+}
+.box p {
+  margin-left: 20px;
+  font-size: 15px;
+}
+.shop {
+  border-style: solid;
+  border-color: #ff3f6c;
+  font-size: 15px;
+  width: 65px;
+  height: 27px;
+  border-width: 1px;
+  color: #ff3f6c;
+  background-color: white;
+  cursor: pointer;
+  margin-top: -4px;
+  border-radius: 2px;
+  margin-left: 136px;
+}
+.shop p {
+  font-size: 13px;
+}
+button p .click-button p {
+  margin-top: -3px;
+  color: #4b4a64;
+}
+.click-button a {
+  color: #ff3f6c;
+  text-decoration: none;
+}
+.blue p {
+  color: #ff3f6c;
+  margin-top: -3px;
+}
+.mark p {
+  color: #4b4a64;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.center {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.radius {
+  margin-top: 50px;
+}
+.checkbox p {
+  margin-left: 40px;
+  margin-top: -20px;
+}
+.red {
+  text-align: center;
+  height: 36px;
+  width: 60px;
+  border-radius: 28px;
+  border-width: 1px;
+}
+.keep {
+  text-align: center;
+  margin-left: 12px;
+  height: 36px;
+  width: 60px;
+  border-radius: 28px;
+  border-width: 1px;
+}
+.pink {
+  text-align: center;
+  margin-left: 12px;
+  height: 36px;
+  width: 60px;
+  border-radius: 28px;
+  border-width: 1px;
+}
+.center a {
+  color: #ff3f6c;
+  text-decoration: none;
+}
+.button {
+  background-color: #ff3f6c;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 92%;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  margin-top: 12px;
+}
+.coupon a {
+  color: #ff3f6c;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+.fee a {
+  color: #ff3f6c;
+  text-decoration: none;
+}
+.item p {
+  font-size: 14px;
+  color: #4b4a64;
+  margin-top: 50px;
+}
+.total p {
+  color: #4b4a64;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.discount p {
+  color: #4b4a64;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.coupon p {
+  color: #4b4a64;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.fee p {
+  color: #4b4a64;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.kumar p {
+  color: #4b4a64;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.kumar {
+  display: flex;
+  justify-content: space-between;
+}
+.buttopn p {
+  color: #4b4a64;
+  font-size: 15px;
+}
+.checkbox {
+  height: 18px;
+  font-size: 15px;
+  width: 25px;
+  margin-top: 15px;
+}
+.ayush p {
+  margin-left: 40px;
+  margin-top: -25px;
+}
+.click-button {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 16px;
+  color: #3c4658;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.discount {
+  display: flex;
+  justify-content: space-between;
+}
+.coupon {
+  display: flex;
+  justify-content: space-between;
+}
+.fee {
+  display: flex;
+  justify-content: space-between;
+}
