@@ -99,6 +99,7 @@ button p .click-button p {
   height: 40px;
   border: none;
   margin-top: 12px;
+  cursor: pointer;
 }
 .coupon a {
   color: #ff3f6c;
