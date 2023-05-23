@@ -1,0 +1,108 @@
+.click-button {
+  text-align: center;
+  font-size: 14px;
+  width: 13%;
+  height: 35px;
+  border-color: #ff3f6c;
+  border-width: 1px;
+  background-color: white;
+  color: #ff3f6c;
+  border-style: groove;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.make {
+  display: flex;
+  justify-content: space-between;
+  border-style: groove;
+  border-width: 1px;
+  height: 76px;
+}
+.black {
+  margin: 10px;
+}
+.make p {
+  margin-top: 30px;
+}
+.container_ayush a {
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  color: #ff3f6c;
+}
+.container_ayush {
+  border: none;
+}
+.select {
+  outline: none;
+  border: none;
+}
+.mySelect {
+  outline: none;
+  border: none;
+}
+.login-input p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 48px;
+  margin-bottom: 12px;
+  margin-top: -17px;
+}
+.ayushkumar {
+  margin-top: 18px;
+  margin-left: 20px;
+}
+.login-input {
+  border-style: groove;
+  border-width: 1px;
+  height: 97px;
+  margin-top: 10px;
+}
+.login-input li {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.container_ayush {
+  border: none;
+  margin-left: 50px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.center {
+  display: flex;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: groove;
+  margin-top: 10px;
+}
+.center span {
+  margin-left: 1px;
+  color: #3c4658;
+  font-weight: bold;
+}
+.center p {
+  color: rgb(109, 108, 108);
+}
+.center p {
+  margin-top: 22px;
+  margin-left: 4px;
+}
+.center span {
+  margin-top: 22px;
+  margin-left: 4px;
+}
+.box {
+  height: 17px;
+  width: 32px;
+  border-radius: 2px;
+}
+.chackbox {
+  display: flex;
+  justify-content: space-between;
+}
+.chackbox span {
+  margin-right: 581px;
+}
+.chackbox p {
+  margin-right: 17px;
+}
