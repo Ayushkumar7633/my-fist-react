@@ -5,9 +5,9 @@
   height: 35px;
   border-color: #ff3f6c;
   border-width: 1px;
+  border-style: groove;
   background-color: white;
   color: #ff3f6c;
-  border-style: groove;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -19,16 +19,25 @@
   height: 76px;
 }
 .black {
-  margin: 10px;
+  margin: 18px;
+  margin-top: 1px;
 }
 .make p {
   margin-top: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #3c4658;
 }
 .container_ayush a {
   text-decoration: none;
   border: none;
   background-color: white;
   color: #ff3f6c;
+}
+.good {
+  margin-top: -158px;
+  margin-left: 132px;
 }
 .container_ayush {
   border: none;
@@ -47,6 +56,8 @@
   margin-left: 48px;
   margin-bottom: 12px;
   margin-top: -17px;
+  color: #373c44;
+  cursor: default;
 }
 .ayushkumar {
   margin-top: 18px;
@@ -74,35 +85,228 @@
   border-width: 1px;
   border-style: groove;
   margin-top: 10px;
+  cursor: default;
+  height: 40px;
+}
+.center img {
+  height: 23px;
+  margin-top: 7px;
 }
 .center span {
   margin-left: 1px;
   color: #3c4658;
   font-weight: bold;
+  margin-top: 14px;
 }
 .center p {
   color: rgb(109, 108, 108);
-}
-.center p {
-  margin-top: 22px;
-  margin-left: 4px;
-}
-.center span {
-  margin-top: 22px;
+  margin-top: 14px;
   margin-left: 4px;
 }
 .box {
-  height: 17px;
+  height: 19px;
   width: 32px;
   border-radius: 2px;
 }
 .chackbox {
   display: flex;
-  justify-content: space-between;
+  margin-top: 35px;
 }
-.chackbox span {
-  margin-right: 581px;
+.price {
+  margin-left: 502px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #535766;
+  cursor: pointer;
 }
-.chackbox p {
-  margin-right: 17px;
+.const {
+  margin-left: 52px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #535766;
+  cursor: pointer;
+}
+.are {
+  border-width: 1px;
+  border-style: groove;
+  color: #3c4658;
+  margin-left: 55px;
+  height: 35px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.and {
+  border-width: 1px;
+  border-style: groove;
+  border-radius: 4px;
+  margin-top: 35px;
+  height: 175px;
+  padding: 12px;
+}
+.and img {
+  width: 12%;
+  margin-top: -17px;
+}
+.dream {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2b2c30;
+  cursor: default;
+}
+.paper {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.sold {
+  font-size: 12px;
+  color: #94969f;
+  margin-top: 2px;
+  cursor: default;
+}
+
+.men {
+  cursor: pointer;
+  height: 19px;
+  width: 100px;
+  border: none;
+  margin-left: 0px;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #000000d4;
+  cursor: pointer;
+}
+.work {
+  cursor: pointer;
+  height: 19px;
+  width: 55px;
+  margin-left: 13px;
+  border: none;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #000000d4;
+  cursor: pointer;
+}
+.size {
+  display: flex;
+}
+.set p {
+  font-weight: 500;
+  font-size: 15px;
+}
+.land {
+  color: #f16565;
+  font-size: 15px;
+}
+.mad {
+  color: #94969f;
+  font-size: 15px;
+  margin-left: 7px;
+}
+.chack {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.795);
+  cursor: default;
+}
+.game {
+  display: flex;
+  margin-top: 12px;
+  cursor: default;
+}
+.small {
+  display: flex;
+  margin-top: 12px;
+}
+.small p {
+  font-size: 11px;
+  color: #535766;
+  margin-top: 2px;
+  cursor: default;
+}
+.return {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000d9;
+  cursor: default;
+}
+.am {
+  border-width: 1px;
+  border-style: groove;
+  border-radius: 4px;
+  margin-top: 9px;
+  height: 215px;
+}
+.am img {
+  width: 12%;
+  margin-top: 5px;
+}
+ul li {
+  font-size: 45px;
+  color: #000000ad;
+  display: block;
+  position: relative;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 0%;
+}
+.colose {
+  cursor: pointer;
+  position: absolute;
+  right: 0%;
+  margin-right: 12px;
+}
+.live {
+  height: 19px;
+  width: 35px;
+  border-radius: 2px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.livemis {
+  height: 19px;
+  width: 35px;
+  border-radius: 2px;
+  position: relative;
+  top: 5px;
+  left: 4px;
+}
+.login-input span {
+  cursor: default;
+}
+.red {
+  text-align: center;
+  height: 45px;
+  width: 47px;
+  border-radius: 28px;
+  border-width: 1px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000da;
+  margin-right: 15px;
+}
+.number0 {
+  border-width: 1px;
+  border-style: groove;
+  height: 290px;
+  text-align: center;
+  margin-top: 93px;
+  width: 341px;
+}
+.button {
+  background-color: #ff3f6c;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 85%;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  margin-top: 12px;
+  cursor: pointer;
 }
