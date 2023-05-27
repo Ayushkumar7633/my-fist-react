@@ -160,6 +160,20 @@
   margin-top: 4px;
   cursor: pointer;
 }
+.paper1 {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.paper2 {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 4px;
+  cursor: pointer;
+}
 .sold {
   font-size: 12px;
   color: #94969f;
@@ -289,11 +303,12 @@ ul li {
   font-weight: bold;
   color: #000000da;
   margin-right: 15px;
+  margin-top: 18px;
 }
 .number0 {
   border-width: 1px;
   border-style: groove;
-  height: 290px;
+  height: 245px;
   text-align: center;
   margin-top: 93px;
   width: 341px;
@@ -309,4 +324,65 @@ ul li {
   border: none;
   margin-top: 12px;
   cursor: pointer;
+  margin-top: 35px;
+}
+.us img {
+  height: 80px;
+}
+.bad {
+  margin-top: -75px;
+  margin-left: 75px;
+}
+.number5 {
+  margin-left: 75px;
+  margin-top: 25px;
+}
+.mad {
+  display: inline-flex;
+}
+.top {
+  color: #000000c7;
+  font-weight: 600;
+}
+.number6 {
+  border-style: groove;
+  border-width: 1px;
+}
+.number8 {
+  text-align: center;
+  height: 46px;
+  width: 85px;
+  border-radius: 28px;
+  border-width: 1px;
+  cursor: pointer;
+  margin-top: 18px;
+  border-color: #ff3f6c;
+}
+.Onesize {
+  font-weight: 700;
+  font-size: 16px;
+  min-width: 18px;
+  text-align: center;
+  margin-top: -33px;
+  color: #ff3f6c;
+}
+
+.done {
+  background-color: #ff3f6c;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 400px;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.us {
+  border-style: groove;
+  border-width: 1px;
+  height: 395px;
+  width: 440px;
 }
