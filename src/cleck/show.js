@@ -240,7 +240,8 @@ function Show() {
             <p>Onesize</p>
           </div>
           <div className={styles["seller"]}>
-            <p className={styles["body"]}>Seller: Dream Weaverz</p>
+            <p className={styles["body"]}>Seller:</p>
+            <p className={styles["title"]}>Dream&nbsp;Weaverz</p>
           </div>
           <button className={styles["done"]}>DONE</button>
         </div>

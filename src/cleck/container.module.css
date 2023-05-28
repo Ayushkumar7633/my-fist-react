@@ -386,3 +386,11 @@ ul li {
   height: 395px;
   width: 440px;
 }
+.body {
+  margin-left: 225px;
+  margin-top: -14px;
+}
+.title {
+  margin-top: -16px;
+  margin-left: 278px;
+}
