@@ -43,8 +43,6 @@
   border: none;
 }
 .select {
-  outline: none;
-  border: none;
 }
 .mySelect {
   outline: none;
@@ -308,17 +306,18 @@ ul li {
 .number0 {
   border-width: 1px;
   border-style: groove;
-  height: 245px;
+  height: 310px;
   text-align: center;
-  margin-top: 93px;
   width: 341px;
+  padding: 20px;
+  margin-top: 15px;
 }
 .button {
   background-color: #ff3f6c;
   text-align: center;
   color: white;
   font-size: 17px;
-  width: 85%;
+  width: 95%;
   border-radius: 2px;
   height: 40px;
   border: none;
@@ -347,15 +346,16 @@ ul li {
 .number6 {
   border-style: groove;
   border-width: 1px;
+  margin-top: 20px;
 }
 .number8 {
   text-align: center;
-  height: 46px;
-  width: 85px;
+  height: 48px;
+  width: 91px;
   border-radius: 28px;
   border-width: 1px;
   cursor: pointer;
-  margin-top: 18px;
+  margin-top: 12px;
   border-color: #ff3f6c;
 }
 .Onesize {
@@ -372,25 +372,126 @@ ul li {
   text-align: center;
   color: white;
   font-size: 17px;
-  width: 400px;
+  width: 438px;
   border-radius: 2px;
   height: 40px;
   border: none;
   cursor: pointer;
   margin-top: 35px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .us {
   border-style: groove;
   border-width: 1px;
-  height: 395px;
+  height: 349px;
   width: 440px;
+  margin-top: 165px;
+  padding: 30px;
 }
 .body {
-  margin-left: 225px;
+  margin-right: 49px;
   margin-top: -14px;
+  color: #58595e;
 }
 .title {
-  margin-top: -16px;
-  margin-left: 278px;
+  margin-top: -17px;
+  color: #444758;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.number7 h4 {
+  color: #3d3f4b;
+  margin-top: 22px;
+}
+.seller {
+  margin-top: 45px;
+}
+.border {
+  border-width: 1px;
+  border-style: groove;
+  margin-top: 32px;
+  width: 265px;
+  margin-left: 35px;
+}
+.number0 span {
+  margin-top: -30px;
+}
+.number2 {
+  margin-top: 20px;
+}
+.select p {
+  margin-right: 142px;
+  margin-top: 35px;
+}
+.ayush {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 383px;
+}
+.offer button {
+  height: 40px;
+  width: 350px;
+  margin-right: 44px;
+  border: none;
+  background-color: #fff6f4;
+  cursor: pointer;
+}
+.tag {
+  margin-left: 320px;
+  margin-top: -29px;
+  cursor: pointer;
+}
+.offer p {
+  margin-right: 130px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.bag img {
+  height: 30px;
+  position: absolute;
+  margin-top: 7px;
+}
+.click2 {
+  font-weight: 600;
+  margin-left: 20px;
+}
+.click6 {
+  color: #000000d8;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.click {
+  margin-top: 44px;
+  border-style: groove;
+  border-width: 1px;
+  width: 480px;
+  overflow: scroll;
+}
+.border8 {
+  border-style: groove;
+  border-width: 1px;
+  width: 198px;
+  height: 170px;
+  border-radius: 6px;
+  margin-top: 45px;
+}
+.border8 img {
+  height: 40px;
+  margin-left: 70px;
+}
+.keys {
+  color: #ff7495;
+  text-decoration: none;
+}
+.border18 {
+  height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -7px;
+}
+.borderradius {
+  border-style: groove;
+  border-width: 1px;
+  margin-top: 13px;
 }

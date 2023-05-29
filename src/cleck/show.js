@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./container.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faSnowflake } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCaretDown,
+  faGreaterThan,
+  faSnowflake,
+} from "@fortawesome/free-solid-svg-icons";
 function Show() {
   return (
     <div className={styles["black"]}>
@@ -142,10 +146,16 @@ function Show() {
         </div>
       </div>
       <div className={styles["number0"]}>
+        <ul>
+          <li>
+            <span className={styles["close"]}>&times;</span>
+          </li>
+        </ul>
         <div className={styles["select"]}>
           <p>Select Quantity</p>
+          <div className={styles["border"]}></div>
         </div>
-        <div className={styles["number1"]}>
+        <div className={styles["number2"]}>
           <input
             type="text"
             className={styles["red"]}
@@ -214,6 +224,11 @@ function Show() {
         </button>
       </div>
       <div className={styles["us"]}>
+        <ul>
+          <li>
+            <span className={styles["ayush"]}>&times;</span>
+          </li>
+        </ul>
         <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19851008/2022/11/3/2a497631-607e-4e6c-8bbd-2689345811d81667468790432-DREAM-WEAVERZ-Black-Leather-Covered-Stainless-Steel-Paper-Bi-1.jpg"></img>
         <div className={styles["bad"]}>
           <p className={styles["dream"]}>DREAM WEAVERZ</p>
@@ -244,6 +259,73 @@ function Show() {
             <p className={styles["title"]}>Dream&nbsp;Weaverz</p>
           </div>
           <button className={styles["done"]}>DONE</button>
+        </div>
+      </div>
+      <div className={styles["offer"]}>
+        <div className={styles["bag"]}>
+          <img src="https://constant.myntassets.com/checkout/assets/img/additional-offer.webp"></img>
+          <button>
+            <p>4 Offers On Your Bag</p>
+          </button>
+          <div className={styles["tag"]}>
+            <FontAwesomeIcon icon={faGreaterThan} />
+          </div>
+        </div>
+      </div>
+      <div className={styles["click12"]}>
+        <ul>
+          <li>
+            <span className={styles["ayush"]}>&times;</span>
+          </li>
+        </ul>
+        <div className={styles["click"]}>
+          <div className={styles["click13"]}>
+            <p className={styles["click2"]}>Offers on your bag</p>
+            <p className={styles["click6"]}>0/4 Offers Applied</p>
+          </div>
+          <div className={styles["borderradius"]}></div>
+          <div className={styles["border18"]}>
+            <div className={styles["border8"]}>
+              <img src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=1200"></img>
+              <p className={styles["key"]}>10% off upto ₹150</p>
+              <p className={styles["key1"]}>
+                Buy from selected catalogue to get additional off
+              </p>
+              <a href="" className={styles["keys"]}>
+                VIEW ITEMS
+              </a>
+            </div>
+            <div className={styles["border8"]}>
+              <img src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=1200"></img>
+              <p className={styles["key"]}>10% off upto ₹150</p>
+              <p className={styles["key1"]}>
+                Buy from selected catalogue to get additional off
+              </p>
+              <a href="" className={styles["keys"]}>
+                VIEW ITEMS
+              </a>
+            </div>
+            <div className={styles["border8"]}>
+              <img src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=1200"></img>
+              <p className={styles["key"]}>10% off upto ₹150</p>
+              <p className={styles["key1"]}>
+                Buy from selected catalogue to get additional off
+              </p>
+              <a href="" className={styles["keys"]}>
+                VIEW ITEMS
+              </a>
+            </div>
+            <div className={styles["border8"]}>
+              <img src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=1200"></img>
+              <p className={styles["key"]}>10% off upto ₹150</p>
+              <p className={styles["key1"]}>
+                Buy from selected catalogue to get additional off
+              </p>
+              <a href="" className={styles["keys"]}>
+                VIEW ITEMS
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
