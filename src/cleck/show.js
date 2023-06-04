@@ -35,23 +35,26 @@ function Show() {
         <p>on this order.</p>
       </div>
       <div className={styles["chackbox"]}>
-        <input type="checkbox" className={styles["box"]} />
-        <span className={styles["chack"]}>2/2 ITEMS SELECT</span>
-        <p className={styles["price"]}>REMOVE</p>
-        <div className={styles["are"]}></div>
-        <p className={styles["const"]}>MOVE TO WISHLIST</p>
+        <div className={styles["are"]}>
+          <input type="checkbox" className={styles["box"]} />
+          <span className={styles["chack"]}>2/2 ITEMS SELECT</span>
+        </div>
+        <div className={styles["are1"]}>
+          <p className={styles["price"]}>REMOVE</p>
+          <p className={styles["const"]}>MOVE TO WISHLIST</p>
+        </div>
       </div>
       <div className={styles["and"]}>
-        <ul>
-          <li>
-            <span className={styles["close"]}>&times;</span>
-          </li>
-        </ul>
         <div className={styles["live"]}>
-          <input type="checkbox" className={styles["live"]} />
+          <input type="checkbox" className={styles["part"]} />
+          <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19851008/2022/11/3/2a497631-607e-4e6c-8bbd-2689345811d81667468790432-DREAM-WEAVERZ-Black-Leather-Covered-Stainless-Steel-Paper-Bi-1.jpg"></img>
         </div>
-        <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19851008/2022/11/3/2a497631-607e-4e6c-8bbd-2689345811d81667468790432-DREAM-WEAVERZ-Black-Leather-Covered-Stainless-Steel-Paper-Bi-1.jpg"></img>
         <div className={styles["good"]}>
+          <ul>
+            <li>
+              <span className={styles["close"]}>&times;</span>
+            </li>
+          </ul>
           <p className={styles["dream"]}>DREAM WEAVERZ</p>
           <p className={styles["paper"]}>
             Black Leather Covered Stainless Steel Paper Bin
@@ -94,16 +97,16 @@ function Show() {
         </div>
       </div>
       <div className={styles["am"]}>
-        <ul>
-          <li>
-            <span className={styles["colose"]}>&times;</span>
-          </li>
-        </ul>
         <div className={styles["livemis"]}>
-          <input type="checkbox" className={styles["livemis"]} />
+          <input type="checkbox" className={styles["livemise"]} />
+          <img src="	https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16071114/2022/12/11/0b3c8b51-c937-4b0f-b3d9-b28c869c3f1a1670740583113WLongWearPinkLipstick-PinkSync1.jpg"></img>
         </div>
-        <img src="	https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16071114/2022/12/11/0b3c8b51-c937-4b0f-b3d9-b28c869c3f1a1670740583113WLongWearPinkLipstick-PinkSync1.jpg"></img>
-        <div className={styles["good"]}>
+        <div className={styles["goodli"]}>
+          <ul>
+            <li>
+              <span className={styles["colose"]}>&times;</span>
+            </li>
+          </ul>
           <p className={styles["dream"]}>W</p>
           <p className={styles["paper"]}>
             Black Leather Covered Stainless Steel Paper Bin
