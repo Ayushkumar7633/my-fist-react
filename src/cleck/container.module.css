@@ -1,6 +1,6 @@
 .click-button {
-  font-size: 14px;
-  height: 35px;
+  font-size: 11px;
+  height: 34px;
   border-color: #ff3f6c;
   border-width: 1px;
   border-style: groove;
@@ -8,9 +8,16 @@
   background-color: white;
   cursor: pointer;
   border-radius: 3px;
+  margin-top: 15px;
+  font-weight: 600;
+  width: 124px;
 }
 .click-button:hover {
   background-color: rgba(255, 169, 169, 0.116);
+}
+.class {
+  display: flex;
+  gap: 15px;
 }
 .good {
   padding: 1px 15px;
@@ -21,6 +28,8 @@
   border-style: groove;
   border-width: 1px;
   padding-bottom: 20px;
+  align-items: baseline;
+  margin-bottom: 18px;
 }
 .black {
   margin: 18px;
@@ -56,9 +65,11 @@
   border-width: 1px;
   padding-bottom: 20px;
   color: #000000a6;
+  margin-bottom: 18px;
 }
 .login-input li {
   font-size: 14px;
+  cursor: default;
 }
 .container_ayush {
   border: none;
@@ -70,7 +81,11 @@
   border-width: 1px;
   border-style: groove;
   cursor: default;
-  padding-bottom: 20px;
+  padding-bottom: 9px;
+}
+.yay {
+  display: flex;
+  padding: 7px;
 }
 .center img {
   height: 23px;
@@ -104,7 +119,9 @@
   font-weight: 500;
   color: #535766;
   cursor: pointer;
+  border-right: 1px solid rgba(83, 83, 83, 0.342);
   margin-right: 25px;
+  padding-right: 19px;
 }
 .const {
   font-size: 15px;
@@ -119,23 +136,12 @@
   display: flex;
   padding: 12px;
 }
-.dream {
-  font-weight: 700;
-  font-size: 14px;
-  color: #2b2c30;
-  cursor: default;
-}
 .paper {
   color: #000000;
   font-weight: 300;
   font-size: 14px;
   cursor: pointer;
-}
-.paper1 {
-  color: #000000;
-  font-weight: 300;
-  font-size: 14px;
-  cursor: pointer;
+  margin-bottom: 8px;
 }
 .paper2 {
   color: #000000;
@@ -147,6 +153,7 @@
   font-size: 12px;
   color: #94969f;
   cursor: default;
+  margin-bottom: 8px;
 }
 
 .men {
@@ -169,17 +176,10 @@
 }
 .size {
   display: flex;
+  margin-bottom: 8px;
 }
 .set p {
   font-weight: 500;
-  font-size: 15px;
-}
-.land {
-  color: #f16565;
-  font-size: 15px;
-}
-.mad {
-  color: #94969f;
   font-size: 15px;
 }
 .chack {
@@ -191,6 +191,7 @@
 .game {
   display: flex;
   cursor: default;
+  margin-bottom: 8px;
 }
 .small {
   display: flex;
@@ -199,6 +200,7 @@
   font-size: 11px;
   color: #535766;
   cursor: default;
+  margin-top: 2px;
 }
 .return {
   font-size: 13px;
@@ -211,11 +213,6 @@ ul li {
   font-size: 45px;
   color: #000000ad;
   display: block;
-}
-.close {
-  cursor: pointer;
-  position: absolute;
-  padding: 0px 350px;
 }
 .colose {
   cursor: pointer;
@@ -253,111 +250,8 @@ ul li {
 .livemis img {
   width: 90px;
 }
-.red {
-  text-align: center;
-  height: 45px;
-  width: 47px;
-  border-radius: 28px;
-  border-width: 1px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #000000da;
-  outline-color: red;
-}
-.number0 {
-  border-width: 1px;
-  border-style: groove;
-  height: 310px;
-  text-align: center;
-  width: 341px;
-  padding: 20px;
-}
-.button {
-  background-color: #ff3f6c;
-  text-align: center;
-  color: white;
-  font-size: 17px;
-  width: 95%;
-  border-radius: 2px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #ff3f6cf1;
-}
-.us img {
-  height: 80px;
-}
 .mad {
   display: inline-flex;
-}
-.top {
-  color: #000000c7;
-  font-weight: 600;
-}
-.number6 {
-  border-style: groove;
-  border-width: 1px;
-}
-.number8 {
-  text-align: center;
-  height: 48px;
-  width: 91px;
-  border-radius: 28px;
-  border-width: 1px;
-  cursor: pointer;
-  border-color: #ff3f6c;
-}
-.Onesize {
-  font-weight: 700;
-  font-size: 16px;
-  min-width: 18px;
-  text-align: center;
-  color: #ff3f6c;
-}
-
-.done {
-  background-color: #ff3f6c;
-  text-align: center;
-  color: white;
-  font-size: 17px;
-  width: 438px;
-  border-radius: 2px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-}
-.done:hover {
-  background-color: #ff3f6cf1;
-}
-.us {
-  border-style: groove;
-  border-width: 1px;
-  height: 349px;
-  width: 440px;
-  padding: 30px;
-}
-.body {
-  color: #58595e;
-}
-.title {
-  color: #444758;
-  font-weight: 600;
-}
-.number7 h4 {
-  color: #3d3f4b;
-}
-.seller {
-}
-.border {
-  border-width: 1px;
-  border-style: groove;
-  width: 265px;
-}
-.ayush {
-  cursor: pointer;
-  position: absolute;
 }
 .offer button {
   height: 40px;

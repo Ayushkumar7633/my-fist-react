@@ -1,0 +1,60 @@
+.bag img {
+  height: 30px;
+  position: absolute;
+}
+.offer button {
+  height: 40px;
+  width: 350px;
+  border: none;
+  background-color: #fff6f4;
+  cursor: pointer;
+}
+.offer p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.tag {
+  cursor: pointer;
+}
+ul li {
+  font-size: 45px;
+  color: #000000ad;
+  display: block;
+}
+.click {
+  border-style: groove;
+  border-width: 1px;
+  width: 480px;
+  overflow: scroll;
+}
+.click2 {
+  font-weight: 600;
+}
+.click6 {
+  color: #000000d8;
+}
+.borderradius {
+  border-style: groove;
+  border-width: 1px;
+}
+.border18 {
+  height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.border8 {
+  border-style: groove;
+  border-width: 1px;
+  width: 198px;
+  height: 170px;
+  border-radius: 6px;
+}
+.border8 img {
+  height: 40px;
+}
+.keys {
+  color: #ff7495;
+  text-decoration: none;
+}

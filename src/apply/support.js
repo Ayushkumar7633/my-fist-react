@@ -16,9 +16,7 @@ function Support() {
       <div className={styles["blue"]}></div>
       <div className={styles["click-button"]}>
         <p>
-          <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app">
-            Login
-          </a>
+          <a>Login</a>
           &nbsp;to get upto ₹300 OFF on first order
         </p>
       </div>
@@ -30,9 +28,24 @@ function Support() {
         <p>Support</p>
       </div>
       <div className={styles["radius"]}>
-        <input type="text" className={styles["red"]} value="₹10"></input>
-        <input type="text" className={styles["keep"]} value="₹50"></input>
-        <input type="text" className={styles["pink"]} value="₹100"></input>
+        <input
+          type="text"
+          className={styles["red"]}
+          value="₹10"
+          disabled
+        ></input>
+        <input
+          type="text"
+          className={styles["keep"]}
+          value="₹50"
+          disabled
+        ></input>
+        <input
+          type="text"
+          className={styles["pink"]}
+          value="₹100"
+          disabled
+        ></input>
       </div>
       <div className={styles["center"]}>
         <a href="https://www.google.com/search?q=rupee+symbol&oq=r&aqs=chrome.0.69i59j69i57j35i39i650j69i60l5.1167j1j7&sourceid=chrome&ie=UTF-8">

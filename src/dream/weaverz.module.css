@@ -1,0 +1,80 @@
+.us {
+  border-style: groove;
+  border-width: 1px;
+  height: 349px;
+  width: 440px;
+  padding: 30px;
+}
+.ayush {
+  cursor: pointer;
+  position: absolute;
+}
+.us img {
+  height: 80px;
+}
+
+.dream {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2b2c30;
+  cursor: default;
+  margin-bottom: 8px;
+}
+.paper1 {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  cursor: pointer;
+}
+.mad {
+  display: inline-flex;
+}
+.land {
+  color: #f16565;
+  font-size: 15px;
+}
+.number6 {
+  border-style: groove;
+  border-width: 1px;
+}
+.top {
+  color: #000000c7;
+  font-weight: 600;
+}
+.number7 h4 {
+  color: #3d3f4b;
+}
+.number8 {
+  text-align: center;
+  height: 48px;
+  width: 91px;
+  border-radius: 28px;
+  border-width: 1px;
+  cursor: pointer;
+  border-color: #ff3f6c;
+}
+.Onesize {
+  font-weight: 700;
+  font-size: 16px;
+  min-width: 18px;
+  text-align: center;
+  color: #ff3f6c;
+}
+.body {
+  color: #58595e;
+}
+.title {
+  color: #444758;
+  font-weight: 600;
+}
+.done {
+  background-color: #ff3f6c;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 438px;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}

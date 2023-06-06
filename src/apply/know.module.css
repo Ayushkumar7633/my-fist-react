@@ -1,9 +1,10 @@
 .body {
   border-style: solid;
+  border-width: 1px;
   height: 549px;
   width: 345px;
-  margin-left: 306px;
   padding: 25px;
+  border-color: #f5f2f2;
 }
 .container {
   border-top: 1px solid #ccc;
@@ -12,10 +13,13 @@
 .box {
   font-size: 23px;
   display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  justify-content: space-around;
 }
 .box p {
-  margin-left: 20px;
   font-size: 15px;
+  margin-right: 120px;
 }
 .shop {
   border-style: solid;
@@ -27,24 +31,20 @@
   color: #ff3f6c;
   background-color: white;
   cursor: pointer;
-  margin-top: -4px;
   border-radius: 2px;
-  margin-left: 136px;
+}
+.shop:hover {
+  background-color: #ff3f6c1f;
 }
 .shop p {
   font-size: 13px;
 }
 button p .click-button p {
-  margin-top: -3px;
   color: #4b4a64;
 }
 .click-button a {
   color: #ff3f6c;
   text-decoration: none;
-}
-.blue p {
-  color: #ff3f6c;
-  margin-top: -3px;
 }
 .mark p {
   color: #4b4a64;
@@ -60,7 +60,6 @@ button p .click-button p {
 }
 .checkbox p {
   margin-left: 40px;
-  margin-top: -20px;
 }
 .red {
   text-align: center;
@@ -68,6 +67,7 @@ button p .click-button p {
   width: 60px;
   border-radius: 28px;
   border-width: 1px;
+  cursor: pointer;
 }
 .keep {
   text-align: center;
@@ -76,6 +76,7 @@ button p .click-button p {
   width: 60px;
   border-radius: 28px;
   border-width: 1px;
+  cursor: pointer;
 }
 .pink {
   text-align: center;
@@ -84,6 +85,7 @@ button p .click-button p {
   width: 60px;
   border-radius: 28px;
   border-width: 1px;
+  cursor: pointer;
 }
 .center a {
   color: #ff3f6c;
@@ -100,6 +102,9 @@ button p .click-button p {
   border: none;
   margin-top: 12px;
   cursor: pointer;
+}
+.button:hover {
+  background-color: #ff3f6cf1;
 }
 .coupon a {
   color: #ff3f6c;
@@ -154,10 +159,8 @@ button p .click-button p {
   font-size: 15px;
   width: 25px;
   margin-top: 15px;
-}
-.ayush p {
-  margin-left: 40px;
-  margin-top: -25px;
+  cursor: pointer;
+  accent-color: #ff3f6c;
 }
 .click-button {
   font-size: 15px;

@@ -1,0 +1,46 @@
+.number0 {
+  border-width: 1px;
+  border-style: groove;
+  height: 310px;
+  text-align: center;
+  width: 341px;
+  padding: 20px;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  padding: 0px 350px;
+  font-size: 45px;
+  color: #000000ad;
+  display: block;
+}
+.border {
+  border-width: 1px;
+  border-style: groove;
+  width: 265px;
+}
+.red {
+  text-align: center;
+  height: 45px;
+  width: 47px;
+  border-radius: 28px;
+  border-width: 1px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000da;
+  outline-color: red;
+}
+.button {
+  background-color: #ff3f6c;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 95%;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ff3f6cf1;
+}
