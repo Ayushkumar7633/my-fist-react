@@ -27,19 +27,19 @@ function Weaverz() {
       <div className={styles["number7"]}>
         <h4>Select Size</h4>
       </div>
-      <div className={styles["number8"]}>
-        <input type="text" className={styles["number8"]} disabled></input>
-        <div className={styles["Onesize"]}>
-          <p>Onesize</p>
+      <div className={styles["number13"]}>
+        <div className={styles["number8"]}>
+          <p className={styles["Onesize"]}>Onesize</p>
         </div>
         <div className={styles["seller"]}>
-          <p className={styles["body"]}>Seller:</p>
-          <p className={styles["title"]}>Dream&nbsp;Weaverz</p>
+          <div className={styles["seller1"]}>
+            <p className={styles["body"]}>Seller:</p>
+            <p className={styles["title"]}>Dream&nbsp;Weaverz</p>
+          </div>
+          <button className={styles["done"]}>DONE</button>
         </div>
-        <button className={styles["done"]}>DONE</button>
       </div>
     </div>
   );
 }
-
 export default Weaverz;

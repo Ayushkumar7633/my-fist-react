@@ -1,3 +1,9 @@
+.number {
+  border-style: groove;
+  border-width: 1px;
+  width: 370px;
+  height: 262px;
+}
 .number0 {
   border-width: 1px;
   border-style: groove;
@@ -6,10 +12,14 @@
   width: 341px;
   padding: 20px;
 }
+.select p {
+  text-align: center;
+  margin-bottom: 10px;
+}
 .close {
   cursor: pointer;
   position: absolute;
-  padding: 0px 350px;
+  padding: 0px 332px;
   font-size: 45px;
   color: #000000ad;
   display: block;
@@ -18,6 +28,7 @@
   border-width: 1px;
   border-style: groove;
   width: 265px;
+  margin-left: 45px;
 }
 .red {
   text-align: center;
@@ -29,17 +40,25 @@
   font-weight: bold;
   color: #000000da;
   outline-color: red;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+.number2 {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 23px;
 }
 .button {
   background-color: #ff3f6c;
   text-align: center;
   color: white;
   font-size: 17px;
-  width: 95%;
+  width: 330px;
   border-radius: 2px;
   height: 40px;
   border: none;
   cursor: pointer;
+  margin-left: 19px;
 }
 .button:hover {
   background-color: #ff3f6cf1;

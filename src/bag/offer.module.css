@@ -15,11 +15,20 @@
 }
 .tag {
   cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: self-end;
+  gap: 114px;
+  top: 8px;
+  left: 50px;
+  font-size: 21px;
 }
 ul li {
   font-size: 45px;
   color: #000000ad;
   display: block;
+  position: fixed;
+  margin-left: 433px;
 }
 .click {
   border-style: groove;
@@ -32,17 +41,21 @@ ul li {
 }
 .click6 {
   color: #000000d8;
+  margin-bottom: 15px;
+  margin-top: 14px;
 }
 .borderradius {
   border-style: groove;
   border-width: 1px;
+  margin-bottom: 12px;
 }
 .border18 {
-  height: 400px;
-  overflow: auto;
+  height: 290px;
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
+  text-align: center;
+  padding-left: 24px;
 }
 .border8 {
   border-style: groove;
@@ -51,10 +64,25 @@ ul li {
   height: 170px;
   border-radius: 6px;
 }
-.border8 img {
-  height: 40px;
+.key {
+  font-size: 14px;
+  color: #000000b5;
+  margin-bottom: 5px;
+}
+.key1 {
+  font-size: 14px;
+  color: #000000b5;
+  margin-bottom: 7px;
 }
 .keys {
   color: #ff7495;
   text-decoration: none;
+  font-size: 14px;
+}
+.border8 p a {
+  font-size: 14px;
+  color: #000000b5;
+}
+.border8 img {
+  height: 40px;
 }

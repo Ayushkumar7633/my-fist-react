@@ -1,0 +1,138 @@
+.content {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+  color: #000000b5;
+}
+.container {
+  display: flex;
+  gap: 8px;
+}
+.contact {
+  background: white;
+  border-color: #cccccc91;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #0639ff;
+  padding: 10px;
+}
+.still {
+  margin-top: 8px;
+}
+.top {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+.you {
+  border-right: 1px solid;
+  border-color: #00000057;
+  flex: 1;
+}
+.you a {
+  text-decoration: none;
+  color: #00000082;
+}
+.you p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.you1 {
+  display: flex;
+  gap: 14px;
+  font-size: 25px;
+  margin-right: 140px;
+}
+.men {
+  border-bottom: 1px dotted #ccc;
+}
+.track {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  color: #000000d6;
+}
+.good {
+  flex-grow: 1;
+  padding: 10px 0 0 10px;
+  line-height: 26px;
+}
+.different p {
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+.tag4 {
+  border-bottom: 1px dotted #ccc;
+  margin-top: 5pc;
+}
+.tag5 {
+  margin-bottom: 15px;
+}
+.view {
+  background: white;
+  border-color: #cccccc91;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #0639ff;
+  padding: 10px;
+  height: 40px;
+}
+.here {
+  display: flex;
+  justify-content: space-between;
+}
+.tag4 h1 {
+  margin-bottom: 25px;
+}
+/* .social5 {
+  background: white;
+  border-color: #cccccc91;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #0639ff;
+  padding: 10px;
+  height: 40px;
+} */
+.social4 {
+  margin-bottom: 26px;
+  margin-top: 3px;
+}
+.social3 {
+  margin-top: 30px;
+  line-height: 22px;
+}
+.social {
+  margin-top: 100px;
+}
+.return {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
+}
+.two {
+  background: white;
+  border-color: #cccccc91;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #0639ff;
+  padding: 10px;
+  height: 40px;
+}
+.two1 {
+  background: white;
+  border-color: #cccccc91;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #0639ff;
+  padding: 10px;
+  height: 40px;
+  margin-left: 275px;
+}

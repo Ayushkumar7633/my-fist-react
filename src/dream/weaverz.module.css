@@ -1,7 +1,7 @@
 .us {
   border-style: groove;
   border-width: 1px;
-  height: 349px;
+  height: 365px;
   width: 440px;
   padding: 30px;
 }
@@ -9,10 +9,16 @@
   cursor: pointer;
   position: absolute;
 }
+.number5 {
+  margin-bottom: 12px;
+}
 .us img {
   height: 80px;
 }
-
+.seller1 {
+  display: flex;
+  margin-bottom: 25px;
+}
 .dream {
   font-weight: 700;
   font-size: 14px;
@@ -36,6 +42,7 @@
 .number6 {
   border-style: groove;
   border-width: 1px;
+  margin-bottom: 10px;
 }
 .top {
   color: #000000c7;
@@ -43,6 +50,7 @@
 }
 .number7 h4 {
   color: #3d3f4b;
+  margin-bottom: 22px;
 }
 .number8 {
   text-align: center;
@@ -52,13 +60,13 @@
   border-width: 1px;
   cursor: pointer;
   border-color: #ff3f6c;
+  border-style: solid;
+  margin-bottom: 19px;
 }
 .Onesize {
   font-weight: 700;
-  font-size: 16px;
-  min-width: 18px;
-  text-align: center;
   color: #ff3f6c;
+  margin-top: 14px;
 }
 .body {
   color: #58595e;

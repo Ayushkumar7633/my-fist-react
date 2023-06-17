@@ -1,0 +1,56 @@
+.shop {
+  border: 1px solid;
+  width: 295px;
+  padding: 70px;
+  margin: auto;
+}
+.black input {
+  width: 13px;
+  height: 25px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 1px solid #00000086;
+  color: #ff0000;
+  transition: all 0.1s;
+}
+.ayush {
+  margin-left: 10px;
+}
+.ayush p {
+  margin-top: 11px;
+  color: #b2b3ba;
+  font-size: 15px;
+}
+.black {
+  margin-top: 35px;
+}
+.kumar img {
+  height: 118px;
+  margin-top: 27px;
+}
+.get a {
+  text-decoration: none;
+  color: #ff3f6c;
+  margin-left: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: #ff3f6c;
+  margin-left: 5px;
+}
+.get p {
+  margin-top: 45px;
+  color: #4b4a64;
+  font-size: 15px;
+}
+.button p {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #4b4a64;
+}
+.rasandtime span {
+  color: #b2b3ba;
+  font-size: 15px;
+}

@@ -1,16 +1,20 @@
 import React, { memo } from "react";
-
+import styles from "./offer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 function Offer() {
   return (
     <div className={styles["your"]}>
       <div className={styles["offer"]}>
         <div className={styles["bag"]}>
           <img src="https://constant.myntassets.com/checkout/assets/img/additional-offer.webp"></img>
-          <button>
-            <p>4 Offers On Your Bag</p>
-          </button>
-          <div className={styles["tag"]}>
-            <FontAwesomeIcon icon={faGreaterThan} />
+          <div className={styles["ayush"]}>
+            <button>
+              <div className={styles["tag"]}>
+                <p>4 Offers On Your Bag</p>
+                <FontAwesomeIcon icon={faGreaterThan} />
+              </div>
+            </button>
           </div>
         </div>
       </div>

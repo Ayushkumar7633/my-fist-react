@@ -87,7 +87,9 @@ function Show() {
             </div>
             <div className={styles["number"]}>
               <span className={styles["mad"]}>
+                &nbsp; &nbsp;
                 <del>₹1,499</del>
+                &nbsp;
               </span>
               &nbsp;&nbsp;
               <span className={styles["land"]}>50% OFF</span>
