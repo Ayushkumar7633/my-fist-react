@@ -1,0 +1,72 @@
+.furnish img {
+  height: 435px;
+  width: 1300px;
+}
+.furnish1 h1 {
+  font-weight: 100;
+  color: #0000009e;
+  font-size: 36px;
+  margin-left: 75px;
+  margin-top: 110px;
+}
+.furnish1 h2 {
+  font-weight: 100;
+  color: #0000009e;
+  font-size: 36px;
+  margin-left: 75px;
+}
+.furnish1 h4 {
+  font-size: 25px;
+  color: #000000c7;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+.furnish1 p {
+  color: #000000c7;
+  margin-top: 25px;
+  margin-left: 75px;
+}
+.furnish1 {
+  display: inline-block;
+  position: absolute;
+  background-color: wheat;
+  height: 359px;
+  width: 495px;
+  margin-top: 36px;
+}
+.see h4 {
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.7em;
+  padding: 50px;
+}
+.bed img {
+  height: 334px;
+  width: 620px;
+}
+.bed h4 {
+  font-weight: 300;
+  font-size: 1.8em;
+  background-color: wheat;
+  height: 123px;
+  width: 620px;
+  text-align: center;
+}
+.bed img:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.set h1 {
+  font-weight: 300;
+  font-size: 80px;
+}
+.take {
+  font-weight: 300;
+  font-size: 30px;
+}
+.set {
+  background-color: wheat;
+  height: 123px;
+  width: 620px;
+}
