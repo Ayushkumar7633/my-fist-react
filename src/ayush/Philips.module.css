@@ -29,6 +29,9 @@
   padding-left: 10px;
   flex: 1;
 }
+.and img {
+  height: 15px;
+}
 .black {
   display: flex;
   flex-wrap: wrap;

@@ -27,7 +27,6 @@
 }
 .center p {
   text-align: center;
-  margin-top: -14px;
 }
 .center h2 {
   text-align: center;
@@ -39,7 +38,6 @@
 .kit p {
   font-size: 21px;
   margin-left: 3px;
-  margin-top: -9px;
 }
 .kit {
   color: white;

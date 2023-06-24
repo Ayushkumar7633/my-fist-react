@@ -1,7 +1,6 @@
 .us {
   border-style: groove;
   border-width: 1px;
-  height: 365px;
   width: 440px;
   padding: 30px;
 }
@@ -31,6 +30,7 @@
   font-weight: 300;
   font-size: 14px;
   cursor: pointer;
+  margin-bottom: 8px;
 }
 .mad {
   display: inline-flex;
@@ -85,4 +85,8 @@
   height: 40px;
   border: none;
   cursor: pointer;
+}
+.icon {
+  position: absolute;
+  padding: 0pc 28pc;
 }
