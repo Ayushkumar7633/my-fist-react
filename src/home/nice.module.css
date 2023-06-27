@@ -33,6 +33,7 @@
   height: 359px;
   width: 495px;
   margin-top: 36px;
+  right: 126px;
 }
 .see h4 {
   color: #3e4152;
@@ -41,7 +42,7 @@
   padding: 50px;
 }
 .bed img {
-  height: 334px;
+  height: 508px;
   width: 620px;
 }
 .bed h4 {
@@ -67,6 +68,67 @@
 }
 .set {
   background-color: wheat;
+  height: 240px;
+  text-align: center;
+}
+.container img {
+  height: 334px;
+  width: 620px;
+}
+.container h4 {
+  font-weight: 300;
+  font-size: 1.8em;
+  background-color: wheat;
   height: 123px;
   width: 620px;
+  text-align: center;
+}
+.container img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.content img {
+  height: 334px;
+  width: 620px;
+}
+.content h4 {
+  font-weight: 300;
+  font-size: 1.8em;
+  background-color: wheat;
+  height: 123px;
+  width: 620px;
+  text-align: center;
+}
+.content img:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.navi-link {
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  color: #3e4152;
+  margin: 0;
+  display: inline-block;
+  width: 70%;
+  padding: 15px 95px;
+}
+.bed1 {
+  display: flex;
+}
+.lines {
+  flex: 1;
+}
+.bed {
+  flex: 2;
+}
+.src {
+  margin-left: 23px;
+}
+.src1 {
+  margin-left: 23px;
+  margin-top: 20px;
 }
