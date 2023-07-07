@@ -1,0 +1,67 @@
+.header {
+  max-width: 600px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-left: 5pc;
+  margin-top: 1pc;
+}
+.container h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.container p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.content1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7pc;
+  margin-left: 6pc;
+}
+.content {
+  margin-left: 5pc;
+  margin-top: 1pc;
+}
+.ayush h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.ayush p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+.manage {
+  display: flex;
+  justify-content: center;
+  margin-top: 7pc;
+}
+.better {
+  margin-left: 10pc;
+  margin-top: 1pc;
+}
+.better h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.better p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
